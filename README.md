@@ -12,7 +12,7 @@ We used OpenCV, Matplotlib, TensorFlow, and Keras libraries. These modules can b
 
 ```python -m pip install matplotlib opencv-python tensorflow```
 
-## Datasets used
+### Datasets used
 - Yann LeCun, Corinna Cortes and Chris Burges.  (n.d). The MNIST database of handwritten digits [Data set] (n.d.). http://yann.lecun.com/exdb/mnist/ 
 - https://www.tensorflow.org/datasets/catalog/mnist
 
@@ -22,9 +22,7 @@ We used OpenCV, PyTesseract, and EasyOCR. These modules can be installed using `
 
 ```python -m pip install opencv-python pytesseract easyocr```
 
-
-
-## Datasets used
+### Datasets used
 - G. Jaume, H. K. Ekenel, J. Thiran. (2019). FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents [Data set]. https://guillaumejaume.github.io/FUNSD/
 - David Doermann. (2019, Sept. 13). Tobacco 800 Dataset (Tobacco800) ,1,ID:Tobacco800_1, [Data Set]. https://www.kaggle.com/datasets/sprytte/tobacco-800-dataset http://tc11.cvc.uab.es/datasets/Tobacco800_1
 - Lucas, S. (2011). ICDAR 2003 Robust Reading Competitions - TC11 (v1.0) [Dataset]. http://iapr-tc11.org/mediawiki/index.php?title=ICDAR_2003_Robust_Reading_Competitions 
