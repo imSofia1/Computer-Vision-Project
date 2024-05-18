@@ -54,6 +54,9 @@ for (bbox, text, prob) in result:
     bottom_right = tuple(map(int, bottom_right))
     cv2.rectangle(original_image, top_left, bottom_right, (0, 255, 0), 2)
 
+    # Put text with confidence level on the image
+    cv2.putText(original_image, f'{text} ({prob:.2f})', top_left, cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 2)
+
     # Update total confidence and number of texts
     total_confidence += prob
     num_texts += 1
