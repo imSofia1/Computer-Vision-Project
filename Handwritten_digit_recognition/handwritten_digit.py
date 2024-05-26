@@ -74,7 +74,7 @@ plot_confusion_matrix(conf_mat=mat,figsize=(8,8), show_normed = True)
 prediction = model.predict(x_test[[4]])  # Predict class probabilities for the first test image
 
 # Get the predicted class by finding the index of the highest probability
-predicted_digit = np.argmax(predicted_probability[0])
+predicted_digit = np.argmax(prediction[0])
 
 confidence = prediction[0][predicted_digit] * 100
 
